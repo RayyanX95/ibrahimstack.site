@@ -68,6 +68,7 @@ process.on('SIGINT', () => {
 /** End Websocket **/
 
 /** Begin database */
+console.log("Added DB.");
 const sqlite = require('sqlite3');
 const db = new sqlite.Database(':memory:');
 
